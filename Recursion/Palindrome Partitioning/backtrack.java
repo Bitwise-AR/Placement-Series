@@ -5,7 +5,7 @@ public class backtrack{
             List<String> part = new ArrayList<>();
             helper(0, s, part, res);
             return res;
-        }
+        } 
     
         public void helper(int idx, String s, List<String> part, List<List<String>> res){
             if(idx == s.length()){
@@ -15,7 +15,7 @@ public class backtrack{
     
             for(int i = idx; i < s.length(); i++){
                 if(isPalindrome(s, idx, i)){ 
-                    part.add(s.substring(idx, i + 1)); 
+                    part.add(s.substring(idx, i + 1));
                     helper(i + 1, s, part, res); 
                     part.removeLast(); 
                 }
