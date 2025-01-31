@@ -7,7 +7,7 @@ class Solution {
             }
         }
 
-        // 3x3 square grid
+        // 3x3 square grid  
         int startRow = (row / 3) * 3;
         int startCol = (col / 3) * 3;
         for (int i = startRow; i < startRow + 3; i++) {
