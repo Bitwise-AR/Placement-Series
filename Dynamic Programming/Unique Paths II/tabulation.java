@@ -2,7 +2,7 @@ class tabulation {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length, n = obstacleGrid[0].length;
         
-        // If Start or End = obstacle
+        // if Start or End = obstacle
         if (obstacleGrid[0][0] == 1 || obstacleGrid[m - 1][n - 1] == 1) {
             return 0;
         }
