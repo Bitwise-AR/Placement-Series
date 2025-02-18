@@ -1,0 +1,2 @@
+# Java Collections Framework cheatsheet
+Over the past eight months, I have dedicated myself to practicing on LeetCode, honing my problem-solving skills. However, I have often found myself grappling with a common challenge — forgetting the intricate syntax and method of the Java collection while working through the coding problems. For this issue, I took matters into my own hands and created a personal cheat sheet as a reliable reference for Java syntax. Here it is.
