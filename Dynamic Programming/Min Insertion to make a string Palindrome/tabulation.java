@@ -1,4 +1,4 @@
-public class memoization {
+public class tabulation {
     private int helper(String s, String rev){
         int m = s.length();
         int n = rev.length();
