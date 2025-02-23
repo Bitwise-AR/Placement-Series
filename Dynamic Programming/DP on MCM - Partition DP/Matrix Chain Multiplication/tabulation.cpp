@@ -8,9 +8,7 @@ int matrixMultiplication(vector<int> &arr) {
         for(int j=i+1; j<=n-1; j++){
             int mini = 1e9;
             for(int k=i; k<=j-1; k++){
-                int temp = arr[i-1]*arr[k]*arr[j] 
-                            + dp[i][k] 
-                            + dp[k+1][j];
+                int temp = arr[i-1]*arr[k]*arr[j] + dp[i][k] + dp[k+1][j];
                 mini = min(mini, temp);
             }
             dp[i][j] = mini;
