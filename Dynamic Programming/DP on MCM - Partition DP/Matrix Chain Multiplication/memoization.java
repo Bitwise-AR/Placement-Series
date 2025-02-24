@@ -1,3 +1,4 @@
+import java.util.*;
 
 class Solution {
     static int matrixMultiplication(int arr[]) {
